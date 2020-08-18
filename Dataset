@@ -9,5 +9,7 @@ configuration ,then they will ask for the area or region such as us-east-2 and t
 step3:- after filling the info. in cmd prompt simply just copy paste the script provided at the site for downloading of the data.
 step4:-after that downloading start and you may get a large zip file of the data.
 
-It is prefered to upload the zip file in drive because otherwise we need to need to upload such large file regularly which is tedious so upload it at drive ,then in colab mount the drive and the simply unzip the file in colab only 
+I recommend to upload the zip file in drive because otherwise we need to need to upload such large file regularly which is tedious so upload it at drive ,then in colab mount the drive and the simply unzip the file in colab only 
 which may save our time ,net and as colab run time is of 12 hours so it is better to do that only.
+
+if any problem mail me:-sharmavivek7866@gmail.com
