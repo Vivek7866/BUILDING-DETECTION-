@@ -5,7 +5,15 @@ To download the data from spacenet ,we must have a aws account(root user)
 Step1:-firstly install the awscli(cli:- command line interface)and then configure it
 for configuration go that the account profile 
 Step2:-find the security credentials then find the access key there if already created ,if not create a access key and preferably download the csv file becoz you may able to see th password only once ,to have a regular use you must download it ,then use that access key ID and SECCURITY ACCESS KEY OR PASSWORD FOR THE
-configuration ,then they will ask for the area or region such as us-east-2 and the last output format such as text,json .means the output will be in json format 
+configuration ,then they will ask for the area or region such as us-east-2 and the last output format such as text,json .means the output will be in json format .
+Something like this:
+
+    !aws configure
+    AWS Access Key ID [None]: "YOUR ACCESS KEY"
+    AWS Secret Access Key [None]: "YOUR SECRET ACCESS KEY"
+    Default region name [None]: us-west-2
+    Default output format [None]: json
+    
 step3:- after filling the info. in cmd prompt simply just copy paste the script provided at the site for downloading of the data.
 step4:-after that downloading start and you may get a large zip file of the data.
 
