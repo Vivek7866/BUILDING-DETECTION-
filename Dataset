@@ -12,4 +12,6 @@ step4:-after that downloading start and you may get a large zip file of the data
 I recommend to upload the zip file in drive because otherwise we need to need to upload such large file regularly which is tedious so upload it at drive ,then in colab mount the drive and the simply unzip the file in colab only 
 which may save our time ,net and as colab run time is of 12 hours so it is better to do that only.
 
+dataset script:-aws s3 cp s3://spacenet-dataset/AOIs/AOI_1_Rio/processedData/processedBuildingLabels.tar.gz .
+
 if any problem mail me:-sharmavivek7866@gmail.com
